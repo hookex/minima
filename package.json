@@ -1,10 +1,12 @@
 {
   "name": "red-star",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "red star theme",
   "scripts": {
     "start": "bundle exec jekyll serve",
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "release:build": "gem build red-star.gemspec",
+    "release:publish": "gem push red-star-*.gem"
   },
   "repository": {
     "type": "git",
