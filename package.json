@@ -1,0 +1,19 @@
+{
+  "name": "red-star",
+  "version": "1.0.0",
+  "description": "red star theme",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hookex/minima.git"
+  },
+  "author": "hooke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hookex/minima/issues"
+  },
+  "homepage": "https://github.com/hookex/minima#readme"
+}
